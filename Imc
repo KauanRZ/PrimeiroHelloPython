@@ -1,0 +1,13 @@
+nome = (input("Qual é seu nome?: "))
+
+peso = float(input("Qual é seu peso?: "))
+
+altura=float(input("Qual é a altura?: "))
+
+quadrado = altura * altura
+total = peso / quadrado
+
+print("Nome:", nome)
+print("Idade:",peso)
+print("Altura:", altura)
+print("Seu peso IMC é:", total)
