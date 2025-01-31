@@ -1,2 +1,15 @@
-dado = input("Digite seu nome: ")
-print("O nome é", dado) 
+nome = input("Qual é seu nome?:")
+
+idade = input("Qual é sua idade?: ")
+
+idadentidade = input("Qual é sua idadentidade?: ")
+
+telefone = input("Qual é seu telefone?: ")
+
+print("O Nome é ", nome)
+
+print("A idade é", idade)
+
+print("A identidade é", idadentidade)
+
+print("O telefone é", telefone)
