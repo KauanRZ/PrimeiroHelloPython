@@ -1,1 +1,2 @@
-
+dado = input("Digite seu nome: ")
+print("O nome é", dado) 
