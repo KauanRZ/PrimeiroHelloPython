@@ -1,0 +1,13 @@
+nota = float(input("Insira sua nota: "))
+
+
+if (nota >= 7.0):
+    print("Aprovado.")
+
+
+elif (nota <= 6.0 and nota >= 4):
+    print("Exame.")
+
+
+else:
+    print("Reprovado.")
