@@ -1,0 +1,8 @@
+for i in range(0,20,):
+    j = input("Digite S/N para continuar: ")
+    if j == "S":
+        print(i, " ")
+    elif j == "N":
+        break
+    else:
+     print("Invalido.")
