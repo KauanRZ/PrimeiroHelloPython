@@ -1,0 +1,19 @@
+num = 0
+maiornum = -1
+menornum = 999
+contador = 0
+while (num <= 10):
+    resposta = int(input("Digite um  número: "))
+
+    if (resposta == 0):
+        print("O m é",maiornum,"O mn é", menornum, "no total deu: " , contador,"No total fica: ", total)
+        break
+
+    if(resposta > maiornum):
+        maiornum = resposta
+
+        if(resposta < menornum):
+            menornum = resposta
+    total = resposta + resposta
+    num += 1
+    contador += 1
