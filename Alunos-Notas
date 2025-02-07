@@ -1,0 +1,37 @@
+maiornt = -1
+menornt = 999
+nomemaiornt = ""
+nomemenornt = ""
+contador = 0
+
+notas = []
+nomes = []
+
+while contador < 10:
+    nome = (input("Insira seu nome: "))
+
+    if nome == "Fim":
+        break
+
+    nota = float(input("Insira sua nota: "))
+
+    nomes.append((nome))  
+    notas.append((nota))
+
+    if(nota > maiornt):
+      maiornt = nota
+    nomemaiornt = nome
+
+    if(nota < menornt):
+        menornt = nota
+        nomemenornt = nome
+
+    contador += 1
+
+print("\nResultados:")
+for i in range(len(nomes)):
+     print(f"O aluno(a) é {nomes} \n com a nota {notas}", end="\n ")
+print(f"O aluno com a maior {nomemaiornt} com a nota {maiornt}")
+print(f"O aluno com a menor {nomemenornt} com a nota {menornt}")
+
+
