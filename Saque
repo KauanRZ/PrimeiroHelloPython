@@ -1,0 +1,20 @@
+saldo = 100
+dever = 0
+print(f"Você tem {saldo}$ na conta.")
+if(saldo <= 0):
+    print("pobre.")
+
+while saldo > 0:
+    saque = int(input(f"quanto deseja sacar?"))
+ 
+    if saldo !=  saque:
+        print("Você sacou tudo. Saindo...")
+        break 
+    if saldo ==  saque:
+        print("Você sacou tudo. Saindo...")
+        break
+if(saque <= saldo): 
+    print(f"Você sacou {saque}$ agora vc tem {saldo - saque}")
+elif(saque > saldo):
+    dever =+ (saque - saldo)
+    print(f"Você esta devendo {dever}$")
