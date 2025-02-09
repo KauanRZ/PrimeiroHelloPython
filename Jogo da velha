@@ -1,0 +1,23 @@
+contador = 0
+letra = "Jonas"
+print(" +--+")
+print(" |  |")
+print(" O  |")
+print("/|\ |")
+print("/ \ |")
+print("    |")
+
+while contador < 3:
+    palavra_oculta = " _ " * len(letra)
+    print(palavra_oculta)
+    letra = input("Digite uma letra da forca você tem 3 chances: ")
+
+    if(letra == "Jonas"):
+        print("Acertou")
+    elif(letra != "Jonas"):
+        print("Errou.")
+        
+    contador += 1
+
+    if(contador == 2):
+        break
