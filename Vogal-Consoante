@@ -1,0 +1,16 @@
+palavra  = input("Digite uma palavra: ").lower
+vogal = "aeiou"
+vogais = ""
+contador = 0
+alfabeto ="bcdfghjklmnpqrstvwxyz"
+alf = ""
+for letra in palavra:
+ if letra in vogal:
+        vogais += letra
+        
+for letraaf in palavra:
+        if letraaf in alfabeto:
+                alf += letraaf
+                contador += 1
+        
+print(f"A palavra é {palavra} com as vogais {vogais} e os que não são é {alf}")
