@@ -1,0 +1,14 @@
+numero = int(input("Digite o primeiro numero:"))
+numero2 = int(input("Digite o segundo numero:"))
+
+par = []
+impar = []
+
+for i in range(numero, numero2 + 1):
+        if i % 2 == 0:
+                par.append(i)
+        else:
+                impar.append(i)
+
+print(f"Números pares: {par}")
+print(f"Números ímpares: {impar}")
