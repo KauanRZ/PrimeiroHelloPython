@@ -1,0 +1,5 @@
+letra = input("Digite uma letra para a piramide: ")
+contador = 0
+for i in range(1,10):
+        print(f"{letra * contador}")    
+        contador += 1
