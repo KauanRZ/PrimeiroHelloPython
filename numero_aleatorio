@@ -1,0 +1,16 @@
+numero_aleatorio = random.randint(1, 100)
+acertou = False
+tentativas = 0
+while not acertou:
+    numero = int(input("Digite um número: "))
+    tentativas += 1
+
+    if(numero > numero_aleatorio):
+        print("Esta em baixo")
+    elif ()
+
+    elif(numero < numero_aleatorio):
+        print("Esta em cima")
+    else:
+        acertou = True
+        print(f"Acertou o número '{numero_aleatorio}' com '{tentativas}' tentativas.")
